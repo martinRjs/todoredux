@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>React Tutorial</title>
+	<link rel="stylesheet" href="src/css/master.css" media="screen" title="no title">
+	<script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
+	<script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+
+</head>
+<body>
+	<h1>todos</h1>
+	<div id="content">
+		<form id="addNewTodoForm">
+			<input id="newTodo" type="text" placeholder="Add new todo"  autocomplete="off"/>
+	  </form>
+		<div id="todosContainer">
+
+		</div>
+		<div class="footer">
+        <span>items left: itemsLeft</span>
+          <ul>
+            <li id="showAll" class="active">All</li>
+            <li id="showPending">Pending</li>
+            <li id="showDone">Done</li>
+          </ul>
+      </div>
+		</div>
+	<script type="text/javascript" src="src/scripts/app.js"></script>
+</body>
+</html>
